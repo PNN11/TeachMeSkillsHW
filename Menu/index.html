@@ -9,6 +9,18 @@
         ul {
             list-style: none;
         }
+        li {
+            cursor: pointer;
+        }
+        li::before {
+            content: "-";
+        }
+        .plus::before {
+            content: "+";
+        }
+        .display_none {
+            display: none;
+        }
     </style>
 </head>
 <body>
